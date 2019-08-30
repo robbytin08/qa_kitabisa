@@ -1,5 +1,7 @@
 # qa_kitabisa
 
+Download apk kitabisa.com in your handphone device
+
 - install node you can donwload https://nodejs.org/en/download/
 - Installing Appium
 - install Katalon Studi https://www.katalon.com/download/
@@ -8,7 +10,7 @@ clone reposity
 git clone https://github.com/robbytin08/qa_kitabisa.git
 
 Open Katalon and open project from cloning
-for apk you can get folder /APK
+for apk you can get folder /APK (If any update you can replace Apk this /APK Folder)
 
 Connecting Katalon Studio to appium.
 
