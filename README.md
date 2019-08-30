@@ -13,11 +13,18 @@ Open Katalon and open project from cloning
 
 -for apk you can get folder /APK (If any update you can replace Apk this /APK Folder)
 
-#Connecting Katalon Studio to appium.
+# Connecting Katalon Studio to appium.
 
 Katalon is a tool for mobile, web and API testing. Katalon studio allows user with less experience in programming language background to work effortlessly.
 
 1. Open  katalon studio.
 2. Go to  Menu Katalon Studio – Preferences
 3. Browse  through appium folder and click apply and OK
+
+# Before Running Test Case
+
+Edit location APK in file Test Case
+
+Example location repository local '/Users/macbookait/git/'
+Mobile.startApplication('/Users/macbookair/git/qa_kitabisa/APK/base.apk', false)
 
