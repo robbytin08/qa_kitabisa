@@ -10,9 +10,10 @@ clone reposity
 git clone https://github.com/robbytin08/qa_kitabisa.git
 
 Open Katalon and open project from cloning
-for apk you can get folder /APK (If any update you can replace Apk this /APK Folder)
 
-Connecting Katalon Studio to appium.
+-for apk you can get folder /APK (If any update you can replace Apk this /APK Folder)
+
+#Connecting Katalon Studio to appium.
 
 Katalon is a tool for mobile, web and API testing. Katalon studio allows user with less experience in programming language background to work effortlessly.
 
