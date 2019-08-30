@@ -1,6 +1,6 @@
 # qa_kitabisa
 
-Download apk kitabisa.com in your handphone device
+Download apk kitabisa.com in your device
 
 - install node you can donwload https://nodejs.org/en/download/
 - Installing Appium
