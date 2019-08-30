@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/macbookair/Downloads/base.apk', false)
+Mobile.startApplication('/Users/macbookair/git/qa_kitabisa/APK/base.apk', false)
 
 Mobile.tap(findTestObject('Donasi/android.widget.ImageView9'), 10)
 
