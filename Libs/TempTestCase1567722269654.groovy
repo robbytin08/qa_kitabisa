@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/9b/47rf2vv11fj1yk4gcyvmgn980000gn/T/Katalon/Test Cases/donasiUsingPaymentVA/20190831_003253/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/9b/47rf2vv11fj1yk4gcyvmgn980000gn/T/Katalon/Test Cases/donasiNoInputNominal/20190906_052429/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/donasiUsingPaymentVA', new TestCaseBinding('Test Cases/donasiUsingPaymentVA',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/donasiNoInputNominal', new TestCaseBinding('Test Cases/donasiNoInputNominal',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
