@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/macbookair/git/qa_kitabisa/APK/base.apk', false)
 
-Mobile.tap(findTestObject('Donasi/android.widget.ImageView9'), 10)
+Mobile.scrollToText('Bangun Kembali Masjid Rusak Pasca Tsunami Palu', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Donasi/android.widget.TextView4 - Bangun Kembali Masjid Rusak Pasca Tsunami Palu'), 10)
 
 Mobile.tap(findTestObject('Donasi/android.widget.Button0 - DONASI SEKARANG'), 0)
 
@@ -29,4 +31,6 @@ Mobile.setText(findTestObject('Donasi/android.widget.EditText1 - Tulis dukungan 
 Mobile.tap(findTestObject('Donasi/android.widget.Button0 - LANJUT PEMBAYARAN'), 10)
 
 Mobile.verifyElementText(findTestObject('Donasi/android.widget.TextView1 - Nominal donasi tidak boleh kosong'), 'Nominal donasi tidak boleh kosong')
+
+Mobile.closeApplication()
 
